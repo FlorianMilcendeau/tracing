@@ -4,8 +4,10 @@
 extern crate napi_derive;
 
 use napi::bindgen_prelude::ToNapiValue;
-use tracing::Level as Level_Tracing;
 use tracing_subscriber::FmtSubscriber;
+
+mod helper;
+use helper::get_level;
 
 #[napi]
 pub enum Level {
@@ -25,13 +27,7 @@ pub struct Tracing {
 impl Tracing {
   #[napi]
   pub fn config(&mut self, level: Level) {
-    let lvl = match level {
-      Level::Trace => Level_Tracing::TRACE,
-      Level::Debug => Level_Tracing::DEBUG,
-      Level::Info => Level_Tracing::INFO,
-      Level::Warn => Level_Tracing::WARN,
-      Level::Error => Level_Tracing::ERROR,
-    };
+    let lvl = get_level(level);
     let subscriber = FmtSubscriber::builder().with_max_level(lvl).finish();
 
     tracing::subscriber::set_global_default(subscriber).expect("setting default subscriber failed");
