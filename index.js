@@ -236,7 +236,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { debug, info } = nativeBinding
+const { Level, Tracing } = nativeBinding
 
-module.exports.debug = debug
-module.exports.info = info
+module.exports.Level = Level
+module.exports.Tracing = Tracing
