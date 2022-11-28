@@ -14,4 +14,5 @@ export class Tracing {
   level?: Level
   config(level: Level): void
   constructor()
+  trace(value: string): void
 }
