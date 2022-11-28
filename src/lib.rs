@@ -4,6 +4,7 @@
 extern crate napi_derive;
 
 use napi::bindgen_prelude::ToNapiValue;
+use tracing::trace;
 use tracing_subscriber::FmtSubscriber;
 
 mod helper;
@@ -38,5 +39,10 @@ impl Tracing {
   #[napi(constructor)]
   pub fn new() -> Self {
     Tracing { level: None }
+  }
+
+  #[napi]
+  pub fn trace(&self, value: String) {
+    trace!("{}", value);
   }
 }

@@ -1,9 +1,9 @@
-import test from 'ava'
+import test from "ava";
 
-import { Level, Tracing } from '../index.js'
+import { Level, Tracing } from "../index.js";
 
-test('test level config', (t) => {
+test("test level config", (t) => {
   const tracing = new Tracing();
-  tracing.config(Level.Trace)
-  t.is(tracing.level, Level.Trace)
-})
+  tracing.config(Level.Trace);
+  t.is(tracing.level, Level.Trace);
+});
