@@ -1,3 +1,3 @@
-# `tracing-android-arm-eabi`
+# `@tracing/tracing.js-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `tracing`
+This is the **armv7-linux-androideabi** binary for `@tracing/tracing.js`

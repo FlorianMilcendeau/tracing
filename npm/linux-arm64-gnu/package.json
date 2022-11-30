@@ -1,5 +1,5 @@
 {
-  "name": "tracing-linux-arm64-gnu",
+  "name": "@tracing/tracing.js-linux-arm64-gnu",
   "version": "0.0.1",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "tracing.linux-arm64-gnu.node",
+  "main": "tracing.js.linux-arm64-gnu.node",
   "files": [
-    "tracing.linux-arm64-gnu.node"
+    "tracing.js.linux-arm64-gnu.node"
   ],
   "license": "MIT",
   "engines": {

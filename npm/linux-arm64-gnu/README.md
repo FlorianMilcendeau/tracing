@@ -1,3 +1,3 @@
-# `tracing-linux-arm64-gnu`
+# `@tracing/tracing.js-linux-arm64-gnu`
 
-This is the **aarch64-unknown-linux-gnu** binary for `tracing`
+This is the **aarch64-unknown-linux-gnu** binary for `@tracing/tracing.js`

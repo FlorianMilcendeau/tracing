@@ -1,3 +1,3 @@
-# `tracing-freebsd-x64`
+# `@tracing/tracing.js-freebsd-x64`
 
-This is the **x86_64-unknown-freebsd** binary for `tracing`
+This is the **x86_64-unknown-freebsd** binary for `@tracing/tracing.js`
