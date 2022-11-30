@@ -1,5 +1,5 @@
 {
-  "name": "tracing-darwin-x64",
+  "name": "@tracing/tracing.js-darwin-x64",
   "version": "0.0.1",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "tracing.darwin-x64.node",
+  "main": "tracing.js.darwin-x64.node",
   "files": [
-    "tracing.darwin-x64.node"
+    "tracing.js.darwin-x64.node"
   ],
   "license": "MIT",
   "engines": {

@@ -1,3 +1,3 @@
-# `tracing-darwin-x64`
+# `@tracing/tracing.js-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `tracing`
+This is the **x86_64-apple-darwin** binary for `@tracing/tracing.js`

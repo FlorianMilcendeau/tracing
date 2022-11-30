@@ -25,24 +25,24 @@ switch (platform) {
   case 'android':
     switch (arch) {
       case 'arm64':
-        localFileExisted = existsSync(join(__dirname, 'tracing.android-arm64.node'))
+        localFileExisted = existsSync(join(__dirname, 'tracing.js.android-arm64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./tracing.android-arm64.node')
+            nativeBinding = require('./tracing.js.android-arm64.node')
           } else {
-            nativeBinding = require('tracing-android-arm64')
+            nativeBinding = require('@tracing/tracing.js-android-arm64')
           }
         } catch (e) {
           loadError = e
         }
         break
       case 'arm':
-        localFileExisted = existsSync(join(__dirname, 'tracing.android-arm-eabi.node'))
+        localFileExisted = existsSync(join(__dirname, 'tracing.js.android-arm-eabi.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./tracing.android-arm-eabi.node')
+            nativeBinding = require('./tracing.js.android-arm-eabi.node')
           } else {
-            nativeBinding = require('tracing-android-arm-eabi')
+            nativeBinding = require('@tracing/tracing.js-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -56,13 +56,13 @@ switch (platform) {
     switch (arch) {
       case 'x64':
         localFileExisted = existsSync(
-          join(__dirname, 'tracing.win32-x64-msvc.node')
+          join(__dirname, 'tracing.js.win32-x64-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./tracing.win32-x64-msvc.node')
+            nativeBinding = require('./tracing.js.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('tracing-win32-x64-msvc')
+            nativeBinding = require('@tracing/tracing.js-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -70,13 +70,13 @@ switch (platform) {
         break
       case 'ia32':
         localFileExisted = existsSync(
-          join(__dirname, 'tracing.win32-ia32-msvc.node')
+          join(__dirname, 'tracing.js.win32-ia32-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./tracing.win32-ia32-msvc.node')
+            nativeBinding = require('./tracing.js.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('tracing-win32-ia32-msvc')
+            nativeBinding = require('@tracing/tracing.js-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -84,13 +84,13 @@ switch (platform) {
         break
       case 'arm64':
         localFileExisted = existsSync(
-          join(__dirname, 'tracing.win32-arm64-msvc.node')
+          join(__dirname, 'tracing.js.win32-arm64-msvc.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./tracing.win32-arm64-msvc.node')
+            nativeBinding = require('./tracing.js.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('tracing-win32-arm64-msvc')
+            nativeBinding = require('@tracing/tracing.js-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -103,12 +103,12 @@ switch (platform) {
   case 'darwin':
     switch (arch) {
       case 'x64':
-        localFileExisted = existsSync(join(__dirname, 'tracing.darwin-x64.node'))
+        localFileExisted = existsSync(join(__dirname, 'tracing.js.darwin-x64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./tracing.darwin-x64.node')
+            nativeBinding = require('./tracing.js.darwin-x64.node')
           } else {
-            nativeBinding = require('tracing-darwin-x64')
+            nativeBinding = require('@tracing/tracing.js-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -116,13 +116,13 @@ switch (platform) {
         break
       case 'arm64':
         localFileExisted = existsSync(
-          join(__dirname, 'tracing.darwin-arm64.node')
+          join(__dirname, 'tracing.js.darwin-arm64.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./tracing.darwin-arm64.node')
+            nativeBinding = require('./tracing.js.darwin-arm64.node')
           } else {
-            nativeBinding = require('tracing-darwin-arm64')
+            nativeBinding = require('@tracing/tracing.js-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -136,12 +136,12 @@ switch (platform) {
     if (arch !== 'x64') {
       throw new Error(`Unsupported architecture on FreeBSD: ${arch}`)
     }
-    localFileExisted = existsSync(join(__dirname, 'tracing.freebsd-x64.node'))
+    localFileExisted = existsSync(join(__dirname, 'tracing.js.freebsd-x64.node'))
     try {
       if (localFileExisted) {
-        nativeBinding = require('./tracing.freebsd-x64.node')
+        nativeBinding = require('./tracing.js.freebsd-x64.node')
       } else {
-        nativeBinding = require('tracing-freebsd-x64')
+        nativeBinding = require('@tracing/tracing.js-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -152,26 +152,26 @@ switch (platform) {
       case 'x64':
         if (isMusl()) {
           localFileExisted = existsSync(
-            join(__dirname, 'tracing.linux-x64-musl.node')
+            join(__dirname, 'tracing.js.linux-x64-musl.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./tracing.linux-x64-musl.node')
+              nativeBinding = require('./tracing.js.linux-x64-musl.node')
             } else {
-              nativeBinding = require('tracing-linux-x64-musl')
+              nativeBinding = require('@tracing/tracing.js-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
           }
         } else {
           localFileExisted = existsSync(
-            join(__dirname, 'tracing.linux-x64-gnu.node')
+            join(__dirname, 'tracing.js.linux-x64-gnu.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./tracing.linux-x64-gnu.node')
+              nativeBinding = require('./tracing.js.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('tracing-linux-x64-gnu')
+              nativeBinding = require('@tracing/tracing.js-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -181,26 +181,26 @@ switch (platform) {
       case 'arm64':
         if (isMusl()) {
           localFileExisted = existsSync(
-            join(__dirname, 'tracing.linux-arm64-musl.node')
+            join(__dirname, 'tracing.js.linux-arm64-musl.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./tracing.linux-arm64-musl.node')
+              nativeBinding = require('./tracing.js.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('tracing-linux-arm64-musl')
+              nativeBinding = require('@tracing/tracing.js-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
           }
         } else {
           localFileExisted = existsSync(
-            join(__dirname, 'tracing.linux-arm64-gnu.node')
+            join(__dirname, 'tracing.js.linux-arm64-gnu.node')
           )
           try {
             if (localFileExisted) {
-              nativeBinding = require('./tracing.linux-arm64-gnu.node')
+              nativeBinding = require('./tracing.js.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('tracing-linux-arm64-gnu')
+              nativeBinding = require('@tracing/tracing.js-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -209,13 +209,13 @@ switch (platform) {
         break
       case 'arm':
         localFileExisted = existsSync(
-          join(__dirname, 'tracing.linux-arm-gnueabihf.node')
+          join(__dirname, 'tracing.js.linux-arm-gnueabihf.node')
         )
         try {
           if (localFileExisted) {
-            nativeBinding = require('./tracing.linux-arm-gnueabihf.node')
+            nativeBinding = require('./tracing.js.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('tracing-linux-arm-gnueabihf')
+            nativeBinding = require('@tracing/tracing.js-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e

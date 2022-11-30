@@ -1,3 +1,3 @@
-# `tracing-android-arm64`
+# `@tracing/tracing.js-android-arm64`
 
-This is the **aarch64-linux-android** binary for `tracing`
+This is the **aarch64-linux-android** binary for `@tracing/tracing.js`

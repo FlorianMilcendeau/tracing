@@ -1,5 +1,5 @@
 {
-  "name": "tracing-linux-arm-gnueabihf",
+  "name": "@tracing/tracing.js-linux-arm-gnueabihf",
   "version": "0.0.1",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "tracing.linux-arm-gnueabihf.node",
+  "main": "tracing.js.linux-arm-gnueabihf.node",
   "files": [
-    "tracing.linux-arm-gnueabihf.node"
+    "tracing.js.linux-arm-gnueabihf.node"
   ],
   "license": "MIT",
   "engines": {
