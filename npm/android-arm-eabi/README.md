@@ -1,3 +1,3 @@
-# `tracing-android-arm-eabi`
+# `@rust/tracing-js-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `tracing`
+This is the **armv7-linux-androideabi** binary for `@rust/tracing-js`

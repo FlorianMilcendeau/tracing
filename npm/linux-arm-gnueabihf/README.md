@@ -1,3 +1,3 @@
-# `tracing-linux-arm-gnueabihf`
+# `@rust/tracing-js-linux-arm-gnueabihf`
 
-This is the **armv7-unknown-linux-gnueabihf** binary for `tracing`
+This is the **armv7-unknown-linux-gnueabihf** binary for `@rust/tracing-js`

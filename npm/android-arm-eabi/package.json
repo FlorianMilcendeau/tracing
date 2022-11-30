@@ -1,15 +1,15 @@
 {
-  "name": "tracing-android-arm-eabi",
-  "version": "0.0.1",
+  "name": "@rust/tracing-js-android-arm-eabi",
+  "version": "0.0.3",
   "os": [
     "android"
   ],
   "cpu": [
     "arm"
   ],
-  "main": "tracing.android-arm-eabi.node",
+  "main": "tracing-js.android-arm-eabi.node",
   "files": [
-    "tracing.android-arm-eabi.node"
+    "tracing-js.android-arm-eabi.node"
   ],
   "license": "MIT",
   "engines": {

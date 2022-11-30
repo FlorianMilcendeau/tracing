@@ -1,3 +1,3 @@
-# `tracing-win32-ia32-msvc`
+# `@rust/tracing-js-win32-ia32-msvc`
 
-This is the **i686-pc-windows-msvc** binary for `tracing`
+This is the **i686-pc-windows-msvc** binary for `@rust/tracing-js`

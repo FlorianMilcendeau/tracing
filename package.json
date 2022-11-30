@@ -1,10 +1,10 @@
 {
-  "name": "tracing",
-  "version": "0.0.1",
+  "name": "@rust/tracing-js",
+  "version": "0.0.3",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "tracing",
+    "name": "tracing-js",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
