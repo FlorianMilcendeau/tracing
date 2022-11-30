@@ -1,18 +1,19 @@
 {
-  "name": "@rust/tracing-js-android-arm-eabi",
-  "version": "0.0.2",
+  "name": "@tracing-rs/tracing-android-arm-eabi",
+  "version": "0.0.3",
   "os": [
     "android"
   ],
   "cpu": [
     "arm"
   ],
-  "main": "tracing-js.android-arm-eabi.node",
+  "main": "tracing.android-arm-eabi.node",
   "files": [
-    "tracing-js.android-arm-eabi.node"
+    "tracing.android-arm-eabi.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/FlorianMilcendeau/tracing.git"
 }

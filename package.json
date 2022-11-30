@@ -1,10 +1,10 @@
 {
-  "name": "@rust/tracing-js",
-  "version": "0.0.2",
+  "name": "@tracing-rs/tracing",
+  "version": "0.0.3",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "tracing-js",
+    "name": "tracing",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -39,5 +39,6 @@
     "test": "ava",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.3.0",
+  "repository": "https://github.com/FlorianMilcendeau/tracing.git"
 }

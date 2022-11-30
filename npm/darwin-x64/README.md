@@ -1,3 +1,3 @@
-# `@rust/tracing-js-darwin-x64`
+# `@tracing-rs/tracing-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `@rust/tracing-js`
+This is the **x86_64-apple-darwin** binary for `@tracing-rs/tracing`

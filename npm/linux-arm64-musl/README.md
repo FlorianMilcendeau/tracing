@@ -1,3 +1,3 @@
-# `@rust/tracing-js-linux-arm64-musl`
+# `@tracing-rs/tracing-linux-arm64-musl`
 
-This is the **aarch64-unknown-linux-musl** binary for `@rust/tracing-js`
+This is the **aarch64-unknown-linux-musl** binary for `@tracing-rs/tracing`

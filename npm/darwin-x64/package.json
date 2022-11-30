@@ -1,18 +1,19 @@
 {
-  "name": "@rust/tracing-js-darwin-x64",
-  "version": "0.0.2",
+  "name": "@tracing-rs/tracing-darwin-x64",
+  "version": "0.0.3",
   "os": [
     "darwin"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "tracing-js.darwin-x64.node",
+  "main": "tracing.darwin-x64.node",
   "files": [
-    "tracing-js.darwin-x64.node"
+    "tracing.darwin-x64.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/FlorianMilcendeau/tracing.git"
 }

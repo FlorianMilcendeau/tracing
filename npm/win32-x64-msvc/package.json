@@ -1,18 +1,19 @@
 {
-  "name": "@rust/tracing-js-win32-x64-msvc",
-  "version": "0.0.2",
+  "name": "@tracing-rs/tracing-win32-x64-msvc",
+  "version": "0.0.3",
   "os": [
     "win32"
   ],
   "cpu": [
     "x64"
   ],
-  "main": "tracing-js.win32-x64-msvc.node",
+  "main": "tracing.win32-x64-msvc.node",
   "files": [
-    "tracing-js.win32-x64-msvc.node"
+    "tracing.win32-x64-msvc.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/FlorianMilcendeau/tracing.git"
 }

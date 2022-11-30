@@ -1,18 +1,19 @@
 {
-  "name": "@rust/tracing-js-linux-arm-gnueabihf",
-  "version": "0.0.2",
+  "name": "@tracing-rs/tracing-linux-arm-gnueabihf",
+  "version": "0.0.3",
   "os": [
     "linux"
   ],
   "cpu": [
     "arm"
   ],
-  "main": "tracing-js.linux-arm-gnueabihf.node",
+  "main": "tracing.linux-arm-gnueabihf.node",
   "files": [
-    "tracing-js.linux-arm-gnueabihf.node"
+    "tracing.linux-arm-gnueabihf.node"
   ],
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/FlorianMilcendeau/tracing.git"
 }
