@@ -39,5 +39,6 @@
     "test": "ava",
     "version": "napi version"
   },
-  "packageManager": "yarn@3.3.0"
+  "packageManager": "yarn@3.3.0",
+  "repository": "https://github.com/FlorianMilcendeau/tracing.git"
 }
