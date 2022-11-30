@@ -1,3 +1,3 @@
-# `@tracing/tracing.js-linux-x64-gnu`
+# `@rust/tracing-js-linux-x64-gnu`
 
-This is the **x86_64-unknown-linux-gnu** binary for `@tracing/tracing.js`
+This is the **x86_64-unknown-linux-gnu** binary for `@rust/tracing-js`

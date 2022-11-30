@@ -1,5 +1,5 @@
 {
-  "name": "@tracing/tracing.js-darwin-arm64",
+  "name": "@rust/tracing-js-darwin-arm64",
   "version": "0.0.2",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "tracing.js.darwin-arm64.node",
+  "main": "tracing-js.darwin-arm64.node",
   "files": [
-    "tracing.js.darwin-arm64.node"
+    "tracing-js.darwin-arm64.node"
   ],
   "license": "MIT",
   "engines": {

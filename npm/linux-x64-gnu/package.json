@@ -1,5 +1,5 @@
 {
-  "name": "@tracing/tracing.js-linux-x64-gnu",
+  "name": "@rust/tracing-js-linux-x64-gnu",
   "version": "0.0.2",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "tracing.js.linux-x64-gnu.node",
+  "main": "tracing-js.linux-x64-gnu.node",
   "files": [
-    "tracing.js.linux-x64-gnu.node"
+    "tracing-js.linux-x64-gnu.node"
   ],
   "license": "MIT",
   "engines": {
