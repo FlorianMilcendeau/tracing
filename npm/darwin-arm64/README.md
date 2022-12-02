@@ -1,3 +1,3 @@
-# `@rust/tracing-js-darwin-arm64`
+# `@tracing-rs/tracing-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `@rust/tracing-js`
+This is the **aarch64-apple-darwin** binary for `@tracing-rs/tracing`

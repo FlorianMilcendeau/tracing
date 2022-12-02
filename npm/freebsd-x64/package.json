@@ -1,5 +1,5 @@
 {
-  "name": "@rust/tracing-js-freebsd-x64",
+  "name": "@tracing-rs/tracing-freebsd-x64",
   "version": "0.0.3",
   "os": [
     "freebsd"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "tracing-js.freebsd-x64.node",
+  "main": "tracing.freebsd-x64.node",
   "files": [
-    "tracing-js.freebsd-x64.node"
+    "tracing.freebsd-x64.node"
   ],
   "license": "MIT",
   "engines": {

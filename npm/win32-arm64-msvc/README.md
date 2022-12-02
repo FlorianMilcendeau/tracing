@@ -1,3 +1,3 @@
-# `@rust/tracing-js-win32-arm64-msvc`
+# `@tracing-rs/tracing-win32-arm64-msvc`
 
-This is the **aarch64-pc-windows-msvc** binary for `@rust/tracing-js`
+This is the **aarch64-pc-windows-msvc** binary for `@tracing-rs/tracing`
