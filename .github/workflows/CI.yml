@@ -457,6 +457,7 @@ jobs:
   publish:
     name: Publish
     runs-on: ubuntu-latest
+    environment: npm
     if: ${{ github.ref_name }} == 'main'
     needs:
       - build-freebsd
